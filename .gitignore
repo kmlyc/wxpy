@@ -4,3 +4,5 @@ build
 !requirements.txt
 *.pyc
 *.spec
+*.pkl
+api_key
