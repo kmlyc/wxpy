@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 20 14:53:54 2017
+Created on Mon Sep 25 16:30:00 2017
 
 @author: Administrator
 """
@@ -18,14 +18,14 @@ from wxpy import *
 robot = Bot()
 
 # 获取好友、群、公众号信息
-robot.chats()
+# robot.chats()
 
 # 获取好友的统计信息
-Friends = robot.friends()
+friends = robot.friends()
 # print(Friends.stats_text())
 
 with open('stats.txt', 'w', encoding='utf8') as f:
-    f.write(Friends.stats_text())
+    f.write(friends.stats_text())
 
-time.sleep(2)
+time.sleep(1)
 robot.logout()
