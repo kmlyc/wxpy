@@ -1,0 +1,9 @@
+#pyinstaller打包exe命令：
+pyinstaller -F -w -i ff.ico wx_friends.py
+
+
+#pip生成记录所有依赖包及其精确的版本号的文件
+pip freeze >requirements.txt
+
+#安装依赖包
+pip install -r requirements.txt
