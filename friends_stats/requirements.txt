@@ -11,7 +11,7 @@ PyQRCode==1.2.1
 PyQt5==5.7
 pytz==2017.2
 pywin32==221
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 sip==4.18.1
 urllib3==1.22
